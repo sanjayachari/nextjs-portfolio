@@ -1,37 +1,37 @@
 import React from 'react'
-import eLearn from '../image/eLearn.jpg'
-import weather from '../image/weather.png'
-import resturant from '../image/resturant.jpg'
-import { motion } from "framer-motion";
-import crud from '../image/crud.png'
-import ecom from '../image/ecom.jpeg'
-import auth from '../image/auth.png'
-import blog from '../image/blog.jpeg'
-import redux from '../image/redux.png'
+import eLearn from '../../public/eLearn.jpg'
+import weather from '../../public/weather.png'
+import resturant from '../../public/resturant.jpg'
+import crud from '../../public/crud.png'
+import ecom from '../../public/ecom.jpeg'
+import auth from '../../public/auth.png'
+import blog from '../../public/blog.jpeg'
+import redux from '../../public/redux.png'
+import Image from 'next/image'
 
 
 const Project = () => {
   return (
-    <div className='p-2 md:p-[30px]  w-full  '
+    <div className='p-2 md:p-[20px]  w-full  '
     
     >
-        <h1 className='m-5 md:m-20 font-bold text-2xl md:text-3xl'>My Projects</h1>
+        <h1 className='m-5 md:mx-20 font-bold text-2xl md:text-3xl'>My Projects</h1>
     <div className='flex flex-col justify-center items-center md:grid grid-cols-3 place-items-center ' id='project'>
     
    
 
-    <motion.div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
+    <div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
     
-    initial={{opacity:0, scale:0.8}}
-        whileInView={{ opacity:1, scale:1}}
-        transition={{  duration: 0.5 }}
-        viewport={{once:true}}
+    // initial={{opacity:0, scale:0.8}}
+    //     whileInView={{ opacity:1, scale:1}}
+    //     transition={{  duration: 0.5 }}
+    //     viewport={{once:true}}
     
     >
 
-        <img src={blog} alt='' className='h-[140px] w-[300px]'>
+        <Image src={blog} alt='' className='h-[140px] w-[300px]'>
 
-        </img>
+        </Image>
         <div className='p-5'>
             <p className='font-bold text-2xl'> MERN Blog App</p>
             <p>React</p>
@@ -48,21 +48,21 @@ const Project = () => {
 
         </div>
 
-    </motion.div>
-    <motion.div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
+    </div>
+    <div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
     
-    initial={{opacity:0, scale:0.8}}
-        whileInView={{ opacity:1, scale:1}}
-        transition={{  duration: 0.5 }}
-        viewport={{once:true}}
+    // initial={{opacity:0, scale:0.8}}
+    //     whileInView={{ opacity:1, scale:1}}
+    //     transition={{  duration: 0.5 }}
+    //     viewport={{once:true}}
     
     >
 
-        <img src={crud} alt='' className='h-[140px] w-[300px]'>
+        <Image src={crud} alt='' className='h-[140px] w-[300px]'>
 
-        </img>
+        </Image>
         <div className='p-5'>
-            <p className='font-bold text-2xl'> MERN CRUD Operation</p>
+            <p className='font-bold text-2xl'> MERN CRUD Oper..</p>
             <p>React</p>
             <p>Nodejs</p>
             <p>Express</p>
@@ -71,26 +71,26 @@ const Project = () => {
             <p>MUi</p>
             <div className='mt-2'>
             <a className='bg-gray-300 text-black border border-black p-1' href='https://github.com/Sanjay-acharya-au50/CRUD_BACKEND'>Code</a>
-            <a className='bg-gray-300 text-black border border-black p-1 m-1' href='https://sanjay-mern-crud-project.vercel.app/'> Website Link </a>
+            {/* <a className='bg-gray-300 text-black border border-black p-1 m-1' href='https://sanjay-mern-crud-project.vercel.app/'> Website Link </a> */}
             </div>
 
 
         </div>
 
-    </motion.div>
+    </div>
   
-    <motion.div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
+    <div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
     
-    initial={{opacity:0, scale:0.8}}
-        whileInView={{ opacity:1, scale:1}}
-        transition={{  duration: 0.5 }}
-        viewport={{once:true}}
+    // initial={{opacity:0, scale:0.8}}
+    //     whileInView={{ opacity:1, scale:1}}
+    //     transition={{  duration: 0.5 }}
+    //     viewport={{once:true}}
     
     >
 
-        <img src={auth} alt='' className='h-[140px] w-[300px]'>
+        <Image src={auth} alt='' className='h-[140px] w-[300px]'>
 
-        </img>
+        </Image>
         <div className='p-5'>
             <p className='font-bold text-2xl'> MERN Authentication</p>
             <p>React</p>
@@ -107,19 +107,19 @@ const Project = () => {
 
         </div>
 
-    </motion.div>
-    <motion.div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
+    </div>
+    <div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
     
-    initial={{opacity:0, scale:0.8}}
-        whileInView={{ opacity:1, scale:1}}
-        transition={{  duration: 0.5 }}
-        viewport={{once:true}}
+    // initial={{opacity:0, scale:0.8}}
+    //     whileInView={{ opacity:1, scale:1}}
+    //     transition={{  duration: 0.5 }}
+    //     viewport={{once:true}}
     
     >
 
-        <img src={redux} alt='' className='h-[140px] w-[300px]'>
+        <Image src={redux} alt='' className='h-[140px] w-[300px]'>
 
-        </img>
+        </Image>
         <div className='p-5'>
             <p className='font-bold text-2xl'> Redux pizzaCart</p>
             <p>React</p>
@@ -136,19 +136,19 @@ const Project = () => {
 
         </div>
 
-    </motion.div>
-    <motion.div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
+    </div>
+    <div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
     
-    initial={{opacity:0, scale:0.8}}
-        whileInView={{ opacity:1, scale:1}}
-        transition={{  duration: 0.5 }}
-        viewport={{once:true}}
+    // initial={{opacity:0, scale:0.8}}
+    //     whileInView={{ opacity:1, scale:1}}
+    //     transition={{  duration: 0.5 }}
+    //     viewport={{once:true}}
     
     >
 
-        <img src={ecom} alt='' className='h-[140px] w-[300px]'>
+        <Image src={ecom} alt='' className='h-[140px] w-[300px]'>
 
-        </img>
+        </Image>
         <div className='p-5'>
             <p className='font-bold text-2xl'> E-Commerce App</p>
             <p>React</p>
@@ -165,19 +165,19 @@ const Project = () => {
 
         </div>
 
-    </motion.div>
+    </div>
     
     
-    <motion.div className='h-[400px] w-[300px] m-4 col-span-1 shadow-2xl hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3'
-     initial={{opacity:0, scale:0.8}}
-        whileInView={{ opacity:1, scale:1}}
-        transition={{  duration: 0.5 }}
-        viewport={{once:true}}
+    <div className='h-[400px] w-[300px] m-4 col-span-1 shadow-2xl hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3'
+    //  initial={{opacity:0, scale:0.8}}
+    //     whileInView={{ opacity:1, scale:1}}
+    //     transition={{  duration: 0.5 }}
+    //     viewport={{once:true}}
     >
 
-        <img src={eLearn} alt='E-learning'  className='h-[140px] w-[300px]'>
+        <Image src={eLearn} alt='E-learning'  className='h-[140px] w-[300px]'>
 
-        </img>
+        </Image>
 
         <div className='p-5 '>
             <p className='font-bold text-2xl '>E-Learning website</p>
@@ -195,18 +195,18 @@ const Project = () => {
 
         </div>
 
-    </motion.div>
-    <motion.div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl   hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3'
+    </div>
+    <div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl   hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3'
     
-    initial={{opacity:0, scale:0.8}}
-        whileInView={{ opacity:1, scale:1}}
-        transition={{  duration: 0.5 }}
-        viewport={{once:true}}
+    // initial={{opacity:0, scale:0.8}}
+    //     whileInView={{ opacity:1, scale:1}}
+    //     transition={{  duration: 0.5 }}
+    //     viewport={{once:true}}
     >
 
-        <img src={weather} alt=''  className='h-[140px] w-[300px]'>
+        <Image src={weather} alt=''  className='h-[140px] w-[300px]'>
 
-        </img>
+        </Image>
         <div className='p-5'>
             <p className='font-bold text-2xl'> Weather App</p>
             <p>React</p>
@@ -224,19 +224,19 @@ const Project = () => {
         </div>
 
 
-    </motion.div>
-    <motion.div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
+    </div>
+    <div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
     
-    initial={{opacity:0, scale:0.8}}
-        whileInView={{ opacity:1, scale:1}}
-        transition={{  duration: 0.5 }}
-        viewport={{once:true}}
+    // initial={{opacity:0, scale:0.8}}
+    //     whileInView={{ opacity:1, scale:1}}
+    //     transition={{  duration: 0.5 }}
+    //     viewport={{once:true}}
     
     >
 
-        <img src={resturant} alt='' className='h-[140px] w-[300px]'>
+        <Image src={resturant} alt='' className='h-[140px] w-[300px]'>
 
-        </img>
+        </Image>
         <div className='p-5'>
             <p className='font-bold text-2xl'> Resturant App UI</p>
             <p>React</p>
@@ -247,13 +247,13 @@ const Project = () => {
             <p>MUi</p>
             <div className='mt-2'>
             <a className='bg-gray-300 text-black border border-black p-1' href='https://github.com/Sanjay-acharya-au50/resturant-frontend-project'>Code</a>
-            <a className='bg-gray-300 text-black border border-black p-1 m-1' href='https://sanjay-resturant-frontend-project.onrender.com/'> Website Link </a>
+            {/* <a className='bg-gray-300 text-black border border-black p-1 m-1' href='https://sanjay-resturant-frontend-project.onrender.com/'> Website Link </a> */}
             </div>
 
 
         </div>
 
-    </motion.div>
+    </div>
    
 
 

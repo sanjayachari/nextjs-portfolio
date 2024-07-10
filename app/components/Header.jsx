@@ -1,7 +1,7 @@
 import React from "react";
 import Cv from "./Cv";
 import data from "./data.json";
-import profPic from "../../public/profPic.jpg";
+// import profPic from "../../public/profPic.jpg";
 import pro from "../../public/person.webp";
 import Image from "next/image";
 import "./header.css";
@@ -38,9 +38,9 @@ const Header = () => {
       <div className=" m-3 fo">
         <div className="flex h-full  flex-col justify-center items-center ">
 
-        <h1 className="ms-0 mt-3 md:mt-2 text-[17px] md:text-2xl text-start text-[#9B3922]">{data[0].intro}</h1>
-        <h1 className="text-3xl md:text-6xl  m-1 font-bold text-[#9B3922]">{data[0].name}</h1>
-        <h1 className="text-[20px] md:text-2xl m-1 shadow-lg text-[#9B3922]">{data[0].role}</h1>
+        <h1 className="ms-0 mt-3 md:mt-2 text-[17px] md:text-2xl text-start text-white opacity-40">{data[0].intro}</h1>
+        <h1 className="text-3xl md:text-6xl  m-1 font-bold text-white opacity-40">{data[0].name}</h1>
+        <h1 className="text-[20px] md:text-2xl m-1 shadow-lg text-white opacity-40">{data[0].role}</h1>
         <Cv />
 
       </div>
