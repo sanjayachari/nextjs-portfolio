@@ -98,13 +98,13 @@ export const Contact = () => {
       >
         <div className="p-3 md:p-2">
           <p className="text-[17px] md:text-[20px] ">
-          I'm committed to create high-quality, user-focused solutions that meet
-          my clients' needs. Whether I'm working on a small website or a
+          Im committed to create high-quality, user-focused solutions that meet
+          my clients needs. Whether Im working on a small website or a
           large-scale application, I always strive for excellence and attention
           to detail...
           </p> 
           <p className="font-bold  mt-3 shadow-lg">
-          Please don't hesitate to get in touch!
+          Please dont hesitate to get in touch!
           </p>
         </div>
       </motion.div>

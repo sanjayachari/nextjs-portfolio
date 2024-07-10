@@ -30,7 +30,7 @@ const About = () => {
             // transition={{ duration: 0.5 }}
             // viewport={{ once: true }}
           >
-            I'm specialized in Full stack stack and I'm passionate about building
+            Im specialized in Full stack stack and Im passionate about building
             Scalable websites.
           </div>
 
