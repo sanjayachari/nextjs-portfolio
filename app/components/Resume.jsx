@@ -47,9 +47,13 @@ const Resume = () => {
         </div>
 
         <div className="col-span-1  flex justify-center items-center">
-          <button className="h-[30px] md:h-[40px] w-[110px] md:w-[140px] m-1  bg-[white] text-black rounded hover:bg-[black] hover:text-white border border-white duration-700">
+          <button
+           >
           <a href="/resume2024.pdf" target="_blank" rel="noopener noreferrer">
-          <div>Download CV</div>
+          <div
+                     className="flex justify-center items-center h-[30px] md:h-[40px] w-[110px] md:w-[140px] m-1  bg-[white] text-black rounded hover:bg-[black] hover:text-white border border-white duration-700"
+
+          >Download CV</div>
         </a>
           </button>
         </div>

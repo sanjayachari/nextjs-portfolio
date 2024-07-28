@@ -3,7 +3,7 @@ import { VscDebugBreakpointLog } from "react-icons/vsc";
 
 const Experience = () => {
   return (
-    <div className="bg-[#0C0C0C] text-white h-full w-full p-4">
+    <div className="bg-[#0C0C0C] text-white h-full w-full p-4" id="experience">
       <div className="text-3xl md:text-6xl font-bold text-center opacity-40 flex items-center justify-center">
         Work Experience
       </div>
@@ -12,7 +12,7 @@ const Experience = () => {
           <ul className=" opacity-50">
             <div className="px-4 ">
               <span className="text-[20px] ">Argon Quber Pvt Ltd | </span>
-              <span className="text-[16px]">07/2023 - present</span>
+              <span className="text-[16px]">07/2023 - 07/2024</span>
             </div>
             <li className="flex gap-2 items-center">
               <VscDebugBreakpointLog /> Implemented authentication of Google,
