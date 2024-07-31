@@ -22,20 +22,33 @@ const Resume = () => {
 
         <div className="col-span-1  text-center flex justify-center items-center flex-col">
           <div className="flex justify-center items-center ">
-            <a href="https://www.instagram.com/sanju_93__/" alt="instagram">
+            <a
+              href="https://www.instagram.com/sanju_93__/"
+              target="_blank"
+              alt="instagram"
+            >
               {" "}
               <AiOutlineInstagram className="m-2 text-3xl" />{" "}
             </a>
-            <a href="https://www.linkedin.com/in/sanjayachari/" alt="LinkedIn">
+            <a
+              href="https://www.linkedin.com/in/sanjayachari/"
+              target="_blank"
+              alt="LinkedIn"
+            >
               {" "}
               <AiFillLinkedin className="m-2 text-3xl" />
             </a>
-            <a href="https://github.com/sanjayachari" alt="GitHub">
+            <a
+              href="https://github.com/sanjayachari"
+              target="_blank"
+              alt="GitHub"
+            >
               {" "}
               <AiFillGithub className="m-2 text-3xl" />
             </a>
             <a
               href="https://www.facebook.com/sanjay.acharya.98229"
+              target="_blank"
               alt="Facebook"
             >
               {" "}
@@ -47,14 +60,16 @@ const Resume = () => {
         </div>
 
         <div className="col-span-1  flex justify-center items-center">
-          <button
-           >
-          <a href="/sanjay_resume.pdf" target="_blank" rel="noopener noreferrer">
-          <div
-                     className="flex justify-center items-center h-[30px] md:h-[40px] w-[110px] md:w-[140px] m-1  bg-[white] text-black rounded hover:bg-[black] hover:text-white border border-white duration-700"
-
-          >Download CV</div>
-        </a>
+          <button>
+            <a
+              href="/sanjay_resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="flex justify-center items-center h-[30px] md:h-[40px] w-[110px] md:w-[140px] m-1  bg-[white] text-black rounded hover:bg-[black] hover:text-white border border-white duration-700">
+                Download CV
+              </div>
+            </a>
           </button>
         </div>
       </div>
