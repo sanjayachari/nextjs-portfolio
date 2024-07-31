@@ -49,7 +49,7 @@ const Resume = () => {
         <div className="col-span-1  flex justify-center items-center">
           <button
            >
-          <a href="/resume2024.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/sanjay_resume.pdf" target="_blank" rel="noopener noreferrer">
           <div
                      className="flex justify-center items-center h-[30px] md:h-[40px] w-[110px] md:w-[140px] m-1  bg-[white] text-black rounded hover:bg-[black] hover:text-white border border-white duration-700"
 
