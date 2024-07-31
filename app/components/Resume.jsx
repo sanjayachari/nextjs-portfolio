@@ -27,15 +27,15 @@ const Resume = () => {
               target="_blank"
               alt="instagram"
             >
-              {" "}
-              <AiOutlineInstagram className="m-2 text-3xl" />{" "}
+              
+              <AiOutlineInstagram className="m-2 text-3xl" />
             </a>
             <a
               href="https://www.linkedin.com/in/sanjayachari/"
               target="_blank"
               alt="LinkedIn"
             >
-              {" "}
+              
               <AiFillLinkedin className="m-2 text-3xl" />
             </a>
             <a
@@ -43,7 +43,7 @@ const Resume = () => {
               target="_blank"
               alt="GitHub"
             >
-              {" "}
+              
               <AiFillGithub className="m-2 text-3xl" />
             </a>
             <a
@@ -51,7 +51,7 @@ const Resume = () => {
               target="_blank"
               alt="Facebook"
             >
-              {" "}
+              
               <AiFillFacebook className="m-2 text-3xl" />
             </a>
           </div>
