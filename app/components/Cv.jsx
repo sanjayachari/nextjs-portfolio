@@ -7,7 +7,7 @@ const Cv = () => {
     <div className="flex items-center justify-center">
       <div
        >
-        <a href="/resume2024.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/sanjay_resume.pdf" target="_blank" rel="noopener noreferrer">
           <div
                  className="flex items-center justify-center hover:bg-[white] hover:text-black border border-white border-opacity-20 duration-700 h-[30px] md:h-[40px] w-[110px] md:w-[140px] m-1  bg-[black] text-white opacity-40 rounded shadow-lg"
 
