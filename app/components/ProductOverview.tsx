@@ -4,8 +4,8 @@ import { VscDebugBreakpointLog } from "react-icons/vsc";
 
 const ProductOverview = () => {
   return (
-    <div className="p-4 h-full bg-[#0C0C0C] text-white text-opacity-40 " id="overview">
-      <div className="text-3xl md:text-6xl font-bold text-center opacity-70 md:flex items-center justify-center">
+    <div className="p-4 h-full bg-[#0C0C0C] text-white text-opacity-80 " id="overview">
+      <div className="text-3xl md:text-6xl font-bold text-center opacity-80 md:flex items-center justify-center">
         Product Overview <span className="md:block hidden mx-2">|</span> <Link href="https://boostopia.io" className="underline text-blue-500 text-[30px] " target="_blank">Link</Link>
       </div>
       <ul className="p-1 md:p-10">
