@@ -14,7 +14,7 @@ const About = () => {
   };
 
   return (
-    <div className="md:h-[500px] bg-[#191916] w-full rounded-xl shadow-xl flex items-center justify-center">
+    <section id="about" className="md:h-[500px] bg-[#191916] w-full rounded-xl shadow-xl flex items-center justify-center">
       <div
         // initial={{ opacity: 0, scale: 0.8 }}
         // whileInView={{ opacity: 1, scale: 1 }}
@@ -128,22 +128,19 @@ const About = () => {
           // transition={{ duration: 0.5 }}
           // viewport={{ once: true }}
         >
-          <div
+          {/* <div
             className="h-[270px] md:h-[350px] w-[200px] md:w-[260px] bg-[black] border border-white border-opacity-20 rounded-lg"
-            // initial={{ opacity: 0, scale: 0.8 }}
-            // whileInView={{ opacity: 1, scale: 1 }}
-            // transition={{ duration: 0.5 }}
-            // viewport={{ once: true }}
+       
           >
             <Image
               src={profilePic}
               alt=""
               className="h-[270px] md:h-[350px] w-[200px] md:w-[260px] about rounded-lg border border-black"
             />
-          </div>
+          </div> */}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

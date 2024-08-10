@@ -4,7 +4,7 @@ import React from "react";
 
 const Cv = () => {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-start">
       <div
        >
         <a href="/sanjay_resume.pdf" target="_blank" rel="noopener noreferrer">

@@ -5,6 +5,7 @@ import About from "./components/About.jsx";
 import Project from "./components/Project.jsx";
 import Resume from "./components/Resume.jsx";
 import Experience from "./components/Experience";
+import SkillsXs from "./components/SkillsXs";
 import "./components/header.css";
 import ProductOverview from "./components/ProductOverview";
 // import Contact from './components/Contact';
@@ -37,6 +38,7 @@ export default function Home() {
         //  }}
       />
       <Header />
+      <SkillsXs/>
       <div className="bg-[#0C0C0C] md:p-5 p-0">
         <About />
       </div>

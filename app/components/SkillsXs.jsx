@@ -1,29 +1,44 @@
-import React from 'react'
-import {motion} from 'framer-motion'
+import React from "react";
+// import '../globals.css'
+import Marquee from "react-fast-marquee";
+import { DiNodejs } from "react-icons/di";
+import { FaReact } from "react-icons/fa";
+import { RiNextjsLine } from "react-icons/ri";
+import { SiExpress } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
+import { FaAws } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaBitbucket } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
 
 const SkillsXs = () => {
   return (
-    <motion.section className='md:hidden block text-center mt-5' id='skill'
-        initial={{opacity:0, scale:0.8}}
-        whileInView={{ opacity:1, scale:1}}
-        transition={{  duration: 0.5 }}
-        viewport={{once:true}}
-    >
-        <h1 className='font-bold text-2xl'>Professional Skills</h1>
-        <ul className='p-2 shadow-xl rounded-xl'>
-            <li className='hover:bg-[white] hover:text-black border border-white duration-700  m-1 p-1  bg-black text-white rounded'>HTML</li>
-            <li className='hover:bg-[white] hover:text-black border border-white duration-700  m-1 p-1  bg-black text-white rounded'>CSS</li>
-            <li className='hover:bg-[white] hover:text-black border border-white duration-700  m-1 p-1  bg-black text-white rounded'>Javascript</li>
-            <li className='hover:bg-[white] hover:text-black border border-white duration-700  m-1 p-1  bg-black text-white rounded'>React.js</li>
-            <li className='hover:bg-[white] hover:text-black border border-white duration-700  m-1 p-1  bg-black text-white rounded'>Node.js</li>
-            <li className='hover:bg-[white] hover:text-black border border-white duration-700  m-1 p-1  bg-black text-white rounded'>Express.js</li>
-            <li className='hover:bg-[white] hover:text-black border border-white duration-700  m-1 p-1  bg-black text-white rounded'>MongoDB</li>
-            <li className='hover:bg-[white] hover:text-black border border-white duration-700  m-1 p-1  bg-black text-white rounded'>Git</li>
-            <li className='hover:bg-[white] hover:text-black border border-white duration-700  m-1 p-1  bg-black text-white rounded'>Tailwind CSS</li>
-        </ul>
-    
-    </motion.section>
-  )
-}
+    <div class="bg-[#0C0C0C] text-white text-opacity-40 p-5">
+      <div className="text-[30px] font-bold text-center py-10 ">
+        Technical skills
+      </div>
+      <Marquee class="">
+        <SiTypescript className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
+        <SiJavascript className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
+        <FaReact className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
+        <RiNextjsLine className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
+        <DiNodejs className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
+        <SiExpress className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
+        <FaDocker className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
+        <FaAws className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
 
-export default SkillsXs
+        <FaHtml5 className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
+        <FaCss3Alt className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
+        <FaGitAlt className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
+        <FaGithub className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
+        <FaBitbucket className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
+      </Marquee>
+    </div>
+  );
+};
+
+export default SkillsXs;
