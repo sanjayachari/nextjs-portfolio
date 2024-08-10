@@ -41,3 +41,8 @@ video{
     left:0;
     background-color:  #0C0C0C 
 }
+
+.rgbColor{
+    box-shadow: 1px 1px 100px 100px rgba(23, 23, 23, 0.356);
+    
+}
