@@ -4,12 +4,12 @@ import { VscDebugBreakpointLog } from "react-icons/vsc";
 const Experience = () => {
   return (
     <div className="bg-[#0C0C0C] text-white h-full w-full p-4" id="experience">
-      <div className="text-3xl md:text-6xl font-bold text-center opacity-40 flex items-center justify-center">
+      <div className="text-3xl md:text-6xl font-bold text-center opacity-80 flex items-center justify-center">
         Work Experience
       </div>
       <div className="md:grid grid-cols-2 h-full py-10">
         <div className="grid cols-span-1 border-r border-white h-full border-opacity-10 p-2 md:p-10">
-          <ul className=" opacity-50">
+          <ul className=" opacity-80">
             <div className="px-4 ">
               <span className="text-[20px] ">Argon Quber Pvt Ltd | </span>
               <span className="text-[16px]">07/2023 - 07/2024</span>
@@ -60,7 +60,7 @@ const Experience = () => {
           </ul>
         </div>
         <div className="grid cols-span-1 border-l border-white h-full border-opacity-10 p-2 md:p-10">
-          <ul className=" opacity-50">
+          <ul className=" opacity-80">
             <div className="px-4 ">
               <span className="text-[20px] ">Key Problems Solved : </span>
             </div>

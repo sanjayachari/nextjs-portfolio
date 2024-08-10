@@ -17,26 +17,28 @@ import { SiJavascript } from "react-icons/si";
 
 const SkillsXs = () => {
   return (
-    <div class="bg-[#0C0C0C] text-white text-opacity-40 p-5">
-      <div className="text-[30px] font-bold text-center py-10 ">
+    <div class="bg-[#0C0C0C] text-white  p-5">
+      <div className="text-[40px] font-bold opacity-80 text-center py-10 ">
         Technical skills
       </div>
-      <Marquee class="">
-        <SiTypescript className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
-        <SiJavascript className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
-        <FaReact className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
-        <RiNextjsLine className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
-        <DiNodejs className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
-        <SiExpress className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
-        <FaDocker className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
-        <FaAws className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
+     <div className="opacity-40">
+     <Marquee class="text-opacity-40">
+        <SiTypescript className="md:h-[70px] h-[40px] w-[40px] md:w-[70px]  mx-6" />
+        <SiJavascript className="md:h-[70px] h-[40px] w-[40px] md:w-[70px]  mx-6" />
+        <FaReact className="md:h-[70px] h-[40px] w-[40px] md:w-[70px]  mx-6" />
+        <RiNextjsLine className="md:h-[70px] h-[40px] w-[40px] md:w-[70px]  mx-6" />
+        <DiNodejs className="md:h-[70px] h-[40px] w-[40px] md:w-[70px]  mx-6" />
+        <SiExpress className="md:h-[70px] h-[40px] w-[40px] md:w-[70px]  mx-6" />
+        <FaDocker className="md:h-[70px] h-[40px] w-[40px] md:w-[70px]  mx-6" />
+        <FaAws className="md:h-[70px] h-[40px] w-[40px] md:w-[70px]  mx-6" />
 
-        <FaHtml5 className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
-        <FaCss3Alt className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
-        <FaGitAlt className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
-        <FaGithub className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
-        <FaBitbucket className="md:h-[70px] h-[40px] w-[40px] md:w-[70px] mx-6" />
+        <FaHtml5 className="md:h-[70px] h-[40px] w-[40px] md:w-[70px]  mx-6" />
+        <FaCss3Alt className="md:h-[70px] h-[40px] w-[40px] md:w-[70px]  mx-6" />
+        <FaGitAlt className="md:h-[70px] h-[40px] w-[40px] md:w-[70px]  mx-6" />
+        <FaGithub className="md:h-[70px] h-[40px] w-[40px] md:w-[70px]  mx-6" />
+        <FaBitbucket className="md:h-[70px] h-[40px] w-[40px] md:w-[70px]  mx-6" />
       </Marquee>
+     </div>
     </div>
   );
 };
