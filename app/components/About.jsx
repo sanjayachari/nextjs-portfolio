@@ -20,7 +20,7 @@ const About = () => {
     >
       <div className="  flex justify-center items-center flex-col">
         <div
-          className=" font-bold text-2xl md:text-3xl text-white opacity-80 "
+          className=" font-bold text-2xl md:text-3xl text-white opacity-90 "
           // initial={{ opacity: 0, scale: 0.8 }}
           // whileInView={{ opacity: 1, scale: 1 }}
           // transition={{ duration: 0.5 }}

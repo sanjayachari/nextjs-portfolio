@@ -11,8 +11,8 @@ import Image from "next/image";
 
 const Project = () => {
   return (
-    <div className="p-2 md:p-[20px]  w-full  ">
-      <h1 className="m-5 md:mx-20 font-bold text-2xl md:text-3xl">
+    <div className="p-2 md:p-[20px] bg-[#191916] w-full rounded-xl text-white">
+      <h1 className="m-5 md:mx-20 font-bold text-2xl md:text-3xl  text-opacity-90 ">
         My Projects
       </h1>
       <div
@@ -20,14 +20,14 @@ const Project = () => {
         id="project"
       >
         <div
-          className="mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3"
+          className=" text-opacity-80  mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl bg-gradient-to-l border border-white border-opacity-10 from-[#191916] to-[#0C0C0C]  rounded-2xl gap-3"
 
           // initial={{opacity:0, scale:0.8}}
           //     whileInView={{ opacity:1, scale:1}}
           //     transition={{  duration: 0.5 }}
           //     viewport={{once:true}}
         >
-          <Image src={blog} alt="" className="h-[140px] w-[300px]"></Image>
+          <Image src={blog} alt="" className="h-[140px] w-[300px] rounded-t-xl"></Image>
           <div className="p-5">
             <p className="font-bold text-2xl"> MERN Blog App</p>
             <p>React</p>
@@ -47,14 +47,14 @@ const Project = () => {
           </div>
         </div>
         <div
-          className="mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3"
+          className=" text-opacity-80  mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl bg-gradient-to-l border border-white border-opacity-10 from-[#191916] to-[#0C0C0C]  rounded-2xl gap-3"
 
           // initial={{opacity:0, scale:0.8}}
           //     whileInView={{ opacity:1, scale:1}}
           //     transition={{  duration: 0.5 }}
           //     viewport={{once:true}}
         >
-          <Image src={crud} alt="" className="h-[140px] w-[300px]"></Image>
+          <Image src={crud} alt="" className="h-[140px] w-[300px]  rounded-t-xl"></Image>
           <div className="p-5">
             <p className="font-bold text-2xl"> MERN CRUD Oper..</p>
             <p>React</p>
@@ -76,14 +76,14 @@ const Project = () => {
         </div>
 
         <div
-          className="mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3"
+          className=" text-opacity-80  mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl bg-gradient-to-l border border-white border-opacity-10 from-[#191916] to-[#0C0C0C]  rounded-2xl gap-3"
 
           // initial={{opacity:0, scale:0.8}}
           //     whileInView={{ opacity:1, scale:1}}
           //     transition={{  duration: 0.5 }}
           //     viewport={{once:true}}
         >
-          <Image src={auth} alt="" className="h-[140px] w-[300px]"></Image>
+          <Image src={auth} alt="" className="h-[140px] w-[300px]  rounded-t-xl"></Image>
           <div className="p-5">
             <p className="font-bold text-2xl"> MERN Authentication</p>
             <p>React</p>
@@ -103,14 +103,14 @@ const Project = () => {
           </div>
         </div>
         <div
-          className="mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3"
+          className=" text-opacity-80  mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl bg-gradient-to-l border border-white border-opacity-10 from-[#191916] to-[#0C0C0C]  rounded-2xl gap-3"
 
           // initial={{opacity:0, scale:0.8}}
           //     whileInView={{ opacity:1, scale:1}}
           //     transition={{  duration: 0.5 }}
           //     viewport={{once:true}}
         >
-          <Image src={redux} alt="" className="h-[140px] w-[300px]"></Image>
+          <Image src={redux} alt="" className="h-[140px] w-[300px]  rounded-t-xl"></Image>
           <div className="p-5">
             <p className="font-bold text-2xl"> Redux pizzaCart</p>
             <p>React</p>
@@ -137,14 +137,14 @@ const Project = () => {
           </div>
         </div>
         <div
-          className="mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3"
+          className=" text-opacity-80  mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  bg-gradient-to-l border border-white border-opacity-10 from-[#191916] to-[#0C0C0C]  rounded-2xl gap-3"
 
           // initial={{opacity:0, scale:0.8}}
           //     whileInView={{ opacity:1, scale:1}}
           //     transition={{  duration: 0.5 }}
           //     viewport={{once:true}}
         >
-          <Image src={ecom} alt="" className="h-[140px] w-[300px]"></Image>
+          <Image src={ecom} alt="" className="h-[140px] w-[300px]  rounded-t-xl"></Image>
           <div className="p-5">
             <p className="font-bold text-2xl"> E-Commerce App</p>
             <p>React</p>
@@ -172,7 +172,7 @@ const Project = () => {
         </div>
 
         <div
-          className="h-[400px] w-[300px] m-4 col-span-1 shadow-2xl hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3"
+          className="h-[400px] w-[300px] m-4 col-span-1 shadow-2xl bg-gradient-to-l border border-white border-opacity-10 from-[#191916] to-[#0C0C0C]  rounded-2xl gap-3"
           //  initial={{opacity:0, scale:0.8}}
           //     whileInView={{ opacity:1, scale:1}}
           //     transition={{  duration: 0.5 }}
@@ -181,7 +181,7 @@ const Project = () => {
           <Image
             src={eLearn}
             alt="E-learning"
-            className="h-[140px] w-[300px]"
+            className="h-[140px] w-[300px]  rounded-t-xl"
           ></Image>
 
           <div className="p-5 ">
@@ -209,14 +209,14 @@ const Project = () => {
           </div>
         </div>
         <div
-          className="mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl   hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3"
+          className=" text-opacity-80  mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  bg-gradient-to-l border border-white border-opacity-10 from-[#191916] to-[#0C0C0C]  rounded-2xl gap-3"
 
           // initial={{opacity:0, scale:0.8}}
           //     whileInView={{ opacity:1, scale:1}}
           //     transition={{  duration: 0.5 }}
           //     viewport={{once:true}}
         >
-          <Image src={weather} alt="" className="h-[140px] w-[300px]"></Image>
+          <Image src={weather} alt="" className="h-[140px] w-[300px]  rounded-t-xl"></Image>
           <div className="p-5">
             <p className="font-bold text-2xl"> Weather App</p>
             <p>React</p>
@@ -243,14 +243,14 @@ const Project = () => {
           </div>
         </div>
         <div
-          className="mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3"
+          className=" text-opacity-80  mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl bg-gradient-to-l border border-white border-opacity-10 from-[#191916] to-[#0C0C0C]  rounded-2xl gap-3"
 
           // initial={{opacity:0, scale:0.8}}
           //     whileInView={{ opacity:1, scale:1}}
           //     transition={{  duration: 0.5 }}
           //     viewport={{once:true}}
         >
-          <Image src={resturant} alt="" className="h-[140px] w-[300px]"></Image>
+          <Image src={resturant} alt="" className="h-[140px] w-[300px]  rounded-t-xl"></Image>
           <div className="p-5">
             <p className="font-bold text-2xl"> Resturant App UI</p>
             <p>React</p>
