@@ -78,7 +78,7 @@ const Header = () => {
         ) : 
         <div className="p-4 w-full fixed top-0 left-0 z-30">
 
-        <div className="rgbColor flex items-center justify-between py-4 bg-[#191916] bg-opacity-50 px-6 w-full rounded-3xl  md:text-2xl font-bold text-white opacity-90 shadow-2xl backdrop-blur-xl"> 
+        <div className="rgbColor flex items-center justify-between py-4 bg-[#191916] bg-opacity-50 px-6 w-full rounded-3xl  md:text-2xl font-bold text-white opacity-100 shadow-2xl backdrop-blur-xl"> 
           <Link href={'#home'} className="flex gap-2 items-center ">
             <Image src={'/logo.png'} height={30} width={30} ></Image>
           PORTFOLIO
@@ -93,13 +93,13 @@ const Header = () => {
 
       <div className="h-[300px] flex md:justify-start justify-center items-center md:px-[100px] w-full ">
         <div className="flex justify-start flex-col">
-          <h1 className="ms-0 mt-3 md:mt-2 text-[17px] md:text-2xl text-start text-white opacity-80">
+          <h1 className="ms-0 mt-3 md:mt-2 text-[17px] md:text-2xl text-start text-white opacity-90">
             {data[0].intro}
           </h1>
-          <h1 className="text-3xl md:text-6xl  m-1 font-bold text-white opacity-80">
+          <h1 className="text-3xl md:text-6xl  m-1 font-bold text-white opacity-90">
             {data[0].name}
           </h1>
-          <h1 className="text-[20px] md:text-2xl m-1 shadow-lg text-white opacity-80">
+          <h1 className="text-[20px] md:text-2xl m-1 text-white opacity-90">
             {data[0].role}
           </h1>
           <Cv />

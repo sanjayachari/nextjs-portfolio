@@ -4,7 +4,7 @@ import { VscDebugBreakpointLog } from "react-icons/vsc";
 const Experience = () => {
   return (
     <div className="bg-[#0C0C0C] text-white h-full w-full p-4" id="experience">
-      <div className="text-3xl md:text-6xl font-bold text-center opacity-80 flex items-center justify-center">
+      <div className="text-3xl md:text-6xl font-bold text-center opacity-90 flex items-center justify-center">
         Work Experience
       </div>
       <div className="md:grid grid-cols-2 h-full py-10">

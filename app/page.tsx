@@ -44,7 +44,9 @@ export default function Home() {
       </div>
       <Experience />
       <ProductOverview />
+      <div className="bg-[#0C0C0C] md:p-5 p-0">
       <Project />
+      </div>
       {/* <Contact/> */}
       <Resume />
     </main>

@@ -17,8 +17,8 @@ import { SiJavascript } from "react-icons/si";
 
 const SkillsXs = () => {
   return (
-    <div class="bg-[#0C0C0C] text-white  p-5">
-      <div className="text-[40px] font-bold opacity-80 text-center py-10 ">
+    <div className="bg-[#0C0C0C] text-white  p-5">
+      <div className="text-[40px] font-bold opacity-90 text-center py-10 ">
         Technical skills
       </div>
      <div className="opacity-40">
