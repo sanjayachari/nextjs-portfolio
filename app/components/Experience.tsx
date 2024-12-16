@@ -11,6 +11,57 @@ const Experience = () => {
         <div className="grid cols-span-1 border-r border-white h-full border-opacity-10 p-2 md:p-10">
           <ul className=" opacity-80">
             <div className="px-4 ">
+              <span className="text-[20px] ">Careercarve | </span>
+              <span className="text-[16px]">08/2024 - 11/2024</span>
+            </div>
+            <li className="flex gap-2 items-center">
+              <VscDebugBreakpointLog /> Worked on OTP authentication, replacing
+              the current authentication methods.
+            </li>
+            <li className="flex gap-2 items-center">
+              <VscDebugBreakpointLog /> Focused on backend tasks, optimizing and
+              securing server-side routes.
+            </li>
+            <li className="flex gap-2 items-center">
+              <VscDebugBreakpointLog /> Implemented secure route validation to
+              enhance app security.
+            </li>
+            <li className="flex gap-2 items-center">
+              <VscDebugBreakpointLog /> Integrated AWS SQS for efficient message
+              queuing and processing.
+            </li>
+            <li className="flex gap-2 items-center">
+              <VscDebugBreakpointLog /> Worked on backend security measures to
+              prevent unauthorized access.
+            </li>
+          </ul>
+        </div>
+        <div className="grid cols-span-1 border-l border-white h-full border-opacity-10 p-2 md:p-10">
+          <ul className="opacity-80">
+            <div className="px-4 ">
+              <span className="text-[20px]">Key Problems Solved : </span>
+            </div>
+
+            <li className="flex gap-2 items-center">
+              <VscDebugBreakpointLog /> Problem: Previously, the backend was
+              monolithic.
+            </li>
+
+            <li className="flex gap-2 items-center">
+              <VscDebugBreakpointLog /> Solution: Contributed to configuring
+              microservices with AWS Load Balancer.
+            </li>
+            <li className="flex gap-2 items-center">
+              <VscDebugBreakpointLog /> Outcome: Enabled better scalability and
+              system performance.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="md:grid grid-cols-2 h-full py-10">
+        <div className="grid cols-span-1 border-r border-white h-full border-opacity-10 p-2 md:p-10">
+          <ul className=" opacity-80">
+            <div className="px-4 ">
               <span className="text-[20px] ">Argon Quber Pvt Ltd | </span>
               <span className="text-[16px]">07/2023 - 07/2024</span>
             </div>

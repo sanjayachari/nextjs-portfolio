@@ -7,6 +7,7 @@ import ecom from "../../public/ecom.jpeg";
 import auth from "../../public/auth.png";
 import blog from "../../public/blog.jpeg";
 import redux from "../../public/redux.png";
+import microfrontends from "../../public/microfrontends.png";
 import Image from "next/image";
 
 const Project = () => {
@@ -27,7 +28,43 @@ const Project = () => {
           //     transition={{  duration: 0.5 }}
           //     viewport={{once:true}}
         >
-          <Image src={blog} alt="" className="h-[140px] w-[300px] rounded-t-xl"></Image>
+          <Image
+            src={microfrontends}
+            alt=""
+            className="h-[140px] w-[300px] rounded-t-xl"
+          ></Image>
+          <div className="p-5 relative h-[260px] w-full">
+            <p className="font-bold text-2xl">Micro Frontend</p>
+            <p>React / Vite</p>
+            <p>Module federation</p>
+            {/* <p>Nodejs</p>
+            <p>Express</p>
+            <p>MongoDB</p>
+            <p>Tailwind CSS</p> */}
+            <div className="mt-2 absolute bottom-8 left-5">
+              <a
+                className="bg-gray-300 text-black border border-black p-1"
+                href="https://github.com/sanjayachari/micro-frontend"
+                target="_blank"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+          </div>
+        <div
+          className=" text-opacity-80  mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl bg-gradient-to-l border border-white border-opacity-10 from-[#191916] to-[#0C0C0C]  rounded-2xl gap-3"
+
+          // initial={{opacity:0, scale:0.8}}
+          //     whileInView={{ opacity:1, scale:1}}
+          //     transition={{  duration: 0.5 }}
+          //     viewport={{once:true}}
+        >
+          <Image
+            src={blog}
+            alt=""
+            className="h-[140px] w-[300px] rounded-t-xl"
+          ></Image>
           <div className="p-5">
             <p className="font-bold text-2xl"> MERN Blog App</p>
             <p>React</p>
@@ -40,6 +77,7 @@ const Project = () => {
               <a
                 className="bg-gray-300 text-black border border-black p-1"
                 href="https://github.com/Sanjay-acharya-au50/CRUD_BACKEND"
+                target="_blank"
               >
                 Code
               </a>
@@ -54,7 +92,11 @@ const Project = () => {
           //     transition={{  duration: 0.5 }}
           //     viewport={{once:true}}
         >
-          <Image src={crud} alt="" className="h-[140px] w-[300px]  rounded-t-xl"></Image>
+          <Image
+            src={crud}
+            alt=""
+            className="h-[140px] w-[300px]  rounded-t-xl"
+          ></Image>
           <div className="p-5">
             <p className="font-bold text-2xl"> MERN CRUD Oper..</p>
             <p>React</p>
@@ -67,6 +109,7 @@ const Project = () => {
               <a
                 className="bg-gray-300 text-black border border-black p-1"
                 href="https://github.com/Sanjay-acharya-au50/CRUD_BACKEND"
+                target="_blank"
               >
                 Code
               </a>
@@ -83,7 +126,11 @@ const Project = () => {
           //     transition={{  duration: 0.5 }}
           //     viewport={{once:true}}
         >
-          <Image src={auth} alt="" className="h-[140px] w-[300px]  rounded-t-xl"></Image>
+          <Image
+            src={auth}
+            alt=""
+            className="h-[140px] w-[300px]  rounded-t-xl"
+          ></Image>
           <div className="p-5">
             <p className="font-bold text-2xl"> MERN Authentication</p>
             <p>React</p>
@@ -96,6 +143,7 @@ const Project = () => {
               <a
                 className="bg-gray-300 text-black border border-black p-1"
                 href="https://github.com/Sanjay-acharya-au50/mernAuthh"
+                target="_blank"
               >
                 Code
               </a>
@@ -110,7 +158,11 @@ const Project = () => {
           //     transition={{  duration: 0.5 }}
           //     viewport={{once:true}}
         >
-          <Image src={redux} alt="" className="h-[140px] w-[300px]  rounded-t-xl"></Image>
+          <Image
+            src={redux}
+            alt=""
+            className="h-[140px] w-[300px]  rounded-t-xl"
+          ></Image>
           <div className="p-5">
             <p className="font-bold text-2xl"> Redux pizzaCart</p>
             <p>React</p>
@@ -123,12 +175,14 @@ const Project = () => {
               <a
                 className="bg-gray-300 text-black border border-black p-1"
                 href="https://github.com/Sanjay-acharya-au50/react-portFolio"
+                target="_blank"
               >
                 Code
               </a>
               <a
                 className="bg-gray-300 text-black border border-black p-1 m-1"
                 href="https://sanjay-pizza-cart.vercel.app/"
+                target="_blank"
               >
                 {" "}
                 Website Link{" "}
@@ -144,7 +198,11 @@ const Project = () => {
           //     transition={{  duration: 0.5 }}
           //     viewport={{once:true}}
         >
-          <Image src={ecom} alt="" className="h-[140px] w-[300px]  rounded-t-xl"></Image>
+          <Image
+            src={ecom}
+            alt=""
+            className="h-[140px] w-[300px]  rounded-t-xl"
+          ></Image>
           <div className="p-5">
             <p className="font-bold text-2xl"> E-Commerce App</p>
             <p>React</p>
@@ -157,12 +215,14 @@ const Project = () => {
               <a
                 className="bg-gray-300 text-black border border-black p-1"
                 href="https://github.com/Sanjay-acharya-au50/ecom"
+                target="_blank"
               >
                 Code
               </a>
               <a
                 className="bg-gray-300 text-black border border-black p-1 m-1"
                 href="https://sanjay-ecommerce-project-git-main-sanjay-acharya-au50.vercel.app/"
+                target="_blank"
               >
                 {" "}
                 Website Link{" "}
@@ -196,15 +256,17 @@ const Project = () => {
               <a
                 className="bg-gray-300 text-black border border-black p-1"
                 href="https://github.com/Sanjay-acharya-au50/my_first_website"
+                target="_blank"
               >
                 Code
               </a>
-              <a
+              {/* <a
                 className="bg-gray-300 text-black  border border-black p-1 m-1"
                 href="https://sanjay-portfolio-website.onrender.com/login"
+                target="_blank"
               >
                 Website Link{" "}
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -216,7 +278,11 @@ const Project = () => {
           //     transition={{  duration: 0.5 }}
           //     viewport={{once:true}}
         >
-          <Image src={weather} alt="" className="h-[140px] w-[300px]  rounded-t-xl"></Image>
+          <Image
+            src={weather}
+            alt=""
+            className="h-[140px] w-[300px]  rounded-t-xl"
+          ></Image>
           <div className="p-5">
             <p className="font-bold text-2xl"> Weather App</p>
             <p>React</p>
@@ -229,12 +295,14 @@ const Project = () => {
               <a
                 className="bg-gray-300 text-black border border-black p-1"
                 href="https://github.com/Sanjay-acharya-au50/react-weather-app"
+                target="_blank"
               >
                 Code
               </a>
               <a
                 className="bg-gray-300 text-black border border-black p-1 m-1"
                 href="https://sanjay-react-weather-app.onrender.com/"
+                target="_blank"
               >
                 {" "}
                 Website Link{" "}
@@ -250,7 +318,11 @@ const Project = () => {
           //     transition={{  duration: 0.5 }}
           //     viewport={{once:true}}
         >
-          <Image src={resturant} alt="" className="h-[140px] w-[300px]  rounded-t-xl"></Image>
+          <Image
+            src={resturant}
+            alt=""
+            className="h-[140px] w-[300px]  rounded-t-xl"
+          ></Image>
           <div className="p-5">
             <p className="font-bold text-2xl"> Resturant App UI</p>
             <p>React</p>
@@ -263,6 +335,7 @@ const Project = () => {
               <a
                 className="bg-gray-300 text-black border border-black p-1"
                 href="https://github.com/Sanjay-acharya-au50/resturant-frontend-project"
+                target="_blank"
               >
                 Code
               </a>
