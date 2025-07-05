@@ -28,42 +28,44 @@ import VanillaTilt from "vanilla-tilt";
 import { motion } from "framer-motion";
 
 const aboutStats = [
-  { label: "Years of experience", value: "3+" },
+  { label: "Years of experience", value: "1+" },
   { label: "Technologies mastered", value: "5+" },
-  { label: "Companies worked with", value: "15+" },
+  { label: "Companies worked with", value: "3+" },
 ];
 
 const projects = [
-  {
-    title: "Unqueue",
-    description: "E-commerce platform for selling digital products",
-    image: "/assets/unqueue.webm",
-    href: "https://unqueue.shop/",
-  },
-  {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
-    image: "/assets/infinitevps.webm",
-    href: "#",
-  },
-  {
-    title: "TranslateBot",
-    description: "Powerful Multilingual Translation Bot for Discord",
-    image: "/assets/translate_bot.webm",
-    href: "https://translatebot.app/",
-  },
-  {
-    title: "Wrona",
-    description: "Robotics-focused technology company",
-    image: "/assets/wrona.jpeg",
-    href: "https://www.wrona.com/",
-  },
-  {
-    title: "This website",
-    description: "My personal website",
-    image: "/assets/portfolio.webm",
-    href: "https://github.com/wendoj/portfolio",
-  },
+{
+  title: "Arya Homestay",
+  description: "A modern booking website built for a premium homestay experience",
+  image: "/assets/aryahomestay.webm",
+  href: "https://aryahomestay.in/",
+}
+,
+{
+  title: "Clyroconsulting",
+  description: "RPO website built for a US-based recruitment consulting firm",
+  image: "/assets/clyroconsulting.webm",
+  href: "https://www.clyroconsulting.com/",
+}
+,
+  // {
+  //   title: "TranslateBot",
+  //   description: "Powerful Multilingual Translation Bot for Discord",
+  //   image: "/assets/translate_bot.webm",
+  //   href: "https://translatebot.app/",
+  // },
+  // {
+  //   title: "sanjay achari",
+  //   description: "Robotics-focused technology company",
+  //   image: "/assets/sanjayachari.jpeg",
+  //   href: "https://www.sanjay achari.com/",
+  // },
+  // {
+  //   title: "This website",
+  //   description: "My personal website",
+  //   image: "/assets/portfolio.webm",
+  //   href: "https://github.com/sanjayachari",
+  // },
 ];
 
 const services = [
@@ -190,9 +192,11 @@ export default function Home() {
               data-scroll-speed=".09"
               className="flex flex-row items-center space-x-1.5"
             >
-              <span className={styles.pill}>next.js</span>
-              <span className={styles.pill}>tailwindcss</span>
-              <span className={styles.pill}>typescript</span>
+              <span className={styles.pill}>Next.js</span>
+              <span className={styles.pill}>Nodejs</span>
+              <span className={styles.pill}>Typescript</span>
+              <span className={styles.pill}>Python</span>
+              <span className={styles.pill}>AWS</span>
             </div>
             <div>
               <h1
@@ -206,7 +210,7 @@ export default function Home() {
                   <br />
                 </span>
                 <span className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
-                  WendoJ.
+                  Sanjay Achari.
                 </span>
               </h1>
               <p
@@ -225,7 +229,7 @@ export default function Home() {
               data-scroll-speed=".06"
               className="flex flex-row items-center space-x-1.5 pt-6"
             >
-              <Link href="mailto:wendoj@proton.me" passHref>
+              <Link href="mailto:c" passHref>
                 <Button>
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
@@ -271,13 +275,13 @@ export default function Home() {
             <h2 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
               I&apos;m an experienced full-stack developer proficient in{" "}
               <Link
-                href="https://create.t3.gg/"
+                href="https://www.linkedin.com/in/sanjayachari"
                 target="_blank"
                 className="underline"
               >
                 TypeScript, Tailwind, and Next.js
               </Link>{" "}
-              since 2021. My experience spans from startups to mid-sized
+              since 2022. My experience spans from startups to mid-sized
               companies, where I&apos;ve been instrumental in the entire product
               design process; from ideation and wireframing, through
               prototyping, to the delivery of the final product, all while
@@ -322,12 +326,11 @@ export default function Home() {
             <span className="text-gradient clash-grotesk text-sm font-semibold tracking-tighter">
               ✨ Projects
             </span>
-            <h2 className="mt-3 text-4xl font-semibold tracking-tight tracking-tighter xl:text-6xl">
-              Streamlined digital experiences.
+            <h2 className="mt-3 text-4xl font-semibold tracking-tighter xl:text-6xl">
+              Delivered freelance projects.
             </h2>
             <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-              I&apos;ve worked on a variety of projects, from small websites to
-              large-scale web applications. Here are some of my favorites:
+              I&apos;ve worked on freelance projects that delivered great results and made clients happy. Here are some of my favorites
             </p>
 
             {/* Carousel */}
@@ -371,12 +374,7 @@ export default function Home() {
                 <CarouselPrevious />
                 <CarouselNext />
               </Carousel>
-              <div className="py-2 text-center text-sm text-muted-foreground">
-                <span className="font-semibold">
-                  {current} / {count}
-                </span>{" "}
-                projects
-              </div>
+            
             </div>
           </div>
         </section>
@@ -446,7 +444,7 @@ export default function Home() {
               I&apos;m currently available for freelance work and open to
               discussing new projects.
             </p>
-            <Link href="mailto:wendoj@proton.me" passHref>
+            <Link href="mailto:codesanjay93@gmail.com" passHref>
               <Button className="mt-6">Get in touch</Button>
             </Link>
           </div>
